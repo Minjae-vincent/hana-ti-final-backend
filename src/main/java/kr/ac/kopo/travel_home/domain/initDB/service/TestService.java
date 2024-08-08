@@ -1,11 +1,11 @@
-package kr.ac.kopo.travel_home.service;
+package kr.ac.kopo.travel_home.domain.initDB.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import kr.ac.kopo.travel_home.ExchangeRate;
+import kr.ac.kopo.travel_home.domain.initDB.mapper.TestMapper;
+import kr.ac.kopo.travel_home.domain.initDB.vo.ExchangeRate;
 import kr.ac.kopo.travel_home.global.config.TemplateConfig;
-import kr.ac.kopo.travel_home.mapper.TestMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package kr.ac.kopo.travel_home;
+package kr.ac.kopo.travel_home.domain.initDB.vo;
 
 import lombok.Data;
 

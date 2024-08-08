@@ -1,7 +1,7 @@
-package kr.ac.kopo.travel_home.controller;
+package kr.ac.kopo.travel_home.domain.initDB.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import kr.ac.kopo.travel_home.service.TestService;
+import kr.ac.kopo.travel_home.domain.initDB.service.TestService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;

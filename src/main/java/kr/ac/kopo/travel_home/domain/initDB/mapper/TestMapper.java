@@ -1,6 +1,6 @@
-package kr.ac.kopo.travel_home.mapper;
+package kr.ac.kopo.travel_home.domain.initDB.mapper;
 
-import kr.ac.kopo.travel_home.ExchangeRate;
+import kr.ac.kopo.travel_home.domain.initDB.vo.ExchangeRate;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

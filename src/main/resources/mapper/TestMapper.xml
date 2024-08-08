@@ -2,12 +2,12 @@
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="kr.ac.kopo.travel_home.mapper.TestMapper">
+<mapper namespace="kr.ac.kopo.travel_home.domain.initDB.mapper.TestMapper">
     <select id="getDBConnectionTest" resultType="String">
         SELECT * FROM TEST
     </select>
 
-    <insert id="insertExchangeRate" parameterType="kr.ac.kopo.travel_home.ExchangeRate">
+    <insert id="insertExchangeRate" parameterType="kr.ac.kopo.travel_home.domain.initDB.vo.ExchangeRate">
         insert into tb_exchange_rate_history values ('COUNTRY_' || '${cur_unit}', TO_DATE('${date}', 'YYYYMMDD'), '${ttb}', '${tts}')
     </insert>
 
